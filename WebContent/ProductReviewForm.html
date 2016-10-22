@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ProductReview</title>
+<link rel="stylesheet" href="./CSS/font-awesome-4.6.3/css/font-awesome.min.css">
+<link rel="stylesheet" href="./CSS/ProductReviewForm.css">
+</head>
+<body>
+<table>
+<tr id="customerRow">
+	<td colspan="6">
+		<div id="customerLinks">
+			<a href="ViewProducts">View Products</a>
+			<a href="ChangePassword.html">My Orders</a>
+			<a href="">Write a Product review <i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+			<a href="ChangePassword.html">Change password</a>
+			<a href="logout">Logout <i class="fa fa-sign-out" aria-hidden="true"></i></a>
+		</div>
+	</td>
+</tr>
+<tr id="managerRow">
+	<td colspan="6">
+		<div id="managerLinks">
+			<a href="AddProduct.html">Add product <i class="fa fa-plus-square-o" aria-hidden="true"></i></a>
+			<a href="DeleteProduct">Delete product <i class="fa fa-minus-square-o" aria-hidden="true"></i></a>
+			<a href="DataAnalytics">Data Analytics <i class="fa fa-bar-chart" aria-hidden="true"></i></a>
+		</div>
+	</td>
+</tr>
+<tr>
+	<th colspan="6">PRODUCT REVIEW FORM <i class="fa fa-pencil-square-o" aria-hidden="true"></i></th>
+</tr>
+<tr>
+	<td colspan="6">
+	<div id="Message">Review submitted successfully!</div>
+	<div id="enterDiv">
+		<form action="SubmitReview" method="post">
+			<ul class="reviewForm">
+				<li>
+				<select type="select" class="credentials">
+					<option value="Select">Select Product Category</option>
+					<option value="Mobile">Mobile</option>
+					<option value="Tablet">Tablet</option>
+					<option value="Laptop">Laptop</option>
+					<option value="TV">TV</option>
+				</select>
+				</li>
+				<li><input type="text"  class="credentials" name="productName" placeholder="Product name" maxlength="25"></input></li>
+				
+				<li><input type="text"  class="credentials" name="price" placeholder="Price"></input></li>
+				<hr>
+				<li><input type="text"  class="credentials" name="RetailerName" placeholder="Retailer Name"></li>
+				<li><input type="text"  class="credentials" name="RetailerZip" placeholder="Retailer ZIP"></li>
+				<li><input type="text"  class="credentials" name="RetailerCity" placeholder="Retailer City"></li>
+				<li><input type="text"  class="credentials" name="RetailerState" placeholder="Retailer State"></li>
+				<hr>
+				<li>Product on sale
+					<ul id="productOnSale">
+						<li><input type="radio" name="gender" value="saleYes">Yes</li>
+						<li><input type="radio" name="gender" value="saleNo">No<br></li>
+					</ul>
+				</li>
+				<li><input type="text"  class="credentials" name="manufacturerName" placeholder="Manufacturer Name"></input></li>
+				<li><div>Manufacturer Rebate</div>
+					<ul id="manufacturerRebate">
+						<li><input type="radio" name="gender" value="rabateYes">Yes</li>
+						<li><input type="radio" name="gender" value="rebateNo">No<br></li>
+					</ul>
+				</li>
+				<hr>
+				<li><input type="text"  class="credentials" name="UserID" placeholder="User ID"></li>
+				<li><input type="text"  class="credentials" name="UserID" placeholder="User Age"></li>
+				<li><div>User Gender</div>
+					<ul id="gender">
+						<li><input type="radio" name="gender" value="male"> Male</li>
+						<li><input type="radio" name="gender" value="female"> Female<br></li>
+					</ul>
+				</li>
+				<li><input type="text"  class="credentials" name="UserOccupation" placeholder="User occupation"></li>
+				<li><div>Review rating</div>
+					<div class="stars">
+						<input class="star star-5" id="star-5" type="radio" name="star"/>
+						<label class="star star-5" for="star-5"></label>
+						<input class="star star-4" id="star-4" type="radio" name="star"/>
+						<label class="star star-4" for="star-4"></label>
+						<input class="star star-3" id="star-3" type="radio" name="star"/>
+						<label class="star star-3" for="star-3"></label>
+						<input class="star star-2" id="star-2" type="radio" name="star"/>
+						<label class="star star-2" for="star-2"></label>
+						<input class="star star-1" id="star-1" type="radio" name="star"/>
+						<label class="star star-1" for="star-1"></label>
+					</div>
+				</li>
+				<li>Review Date <input type="date" name="bday"></li>
+				<li>
+					<textarea rows="5" cols="40" maxlength="100">Review text...</textarea>
+				</li>
+				<li><button type="submit" value="login" id="addProductButton" class="registerButtons">Submit Review <i class="fa fa-pencil-square" aria-hidden="true"></i></button></li>
+			</ul>
+			
+		</form>
+	</div>
+	</td>
+</tr>
+</table>
+</body>
+</html>

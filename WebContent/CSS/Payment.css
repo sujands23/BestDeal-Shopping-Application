@@ -1,0 +1,74 @@
+th{
+	background: #d9d9d9;
+    color: #606060;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 25px;
+}
+tr{background-color: #f2f2f2}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    font-family: SANS-SERIF;
+}
+#payButton{
+	width: 100%;
+    height: 40px;
+    border: #f07a29;
+    background-color: #f08b29;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#payButton:hover{
+	background-color:#ee6b11;
+}
+.cardDetail{
+	height: 30px;
+    margin-bottom: 10px;
+    border: 2px solid #b8b8b8;
+    border-radius: 5px;
+	font-size:16px;
+	padding-left: 8px;
+}
+#cardNumber{
+	width:100%;
+}
+#nameOnCard{
+	width: 100%;
+}
+.cardDate{
+	width:100%;
+	float:left;
+}
+.delimiter{
+	font-size: 30px;
+	font-weight: bold;
+	float:left;
+	margin-left: 10px;
+    margin-right: 5px;
+}
+.cardDateDiv{
+	width: 50px;
+    float: left;
+}
+.cardCVV{
+	width: 70px;
+    float: right;
+}
+
+#creditCardDetails{
+	width:35%;
+	margin: auto;
+}
+form div{
+	width:100%;
+}
+.cardTwo{
+	width:40px;
+}
+#cvvWidth{
+	width:100%;
+}

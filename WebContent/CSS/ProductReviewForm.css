@@ -1,0 +1,94 @@
+th{
+	background: #d9d9d9;
+    color: #606060;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 25px;
+}
+tr{background-color: #f2f2f2}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    font-family: SANS-SERIF;
+}
+form div{
+	width:100%;
+}
+.credentials{
+	height: 30px;
+	width:300px;
+    border: 2px solid #b8b8b8;
+    border-radius: 3px;
+	font-family: Arial;
+	font-size:16px;
+	font-weight: bold;
+	padding: 2px;
+}
+.registerButtons{
+	float: right;
+	width: 300px;
+    height: 45px;
+    border: #f07a29;
+	border-radius: 3px;
+	color:#FFFFFF;
+    font-weight: bold;
+	font-size: 16px;
+	cursor:pointer;
+	margin:0 auto;
+}
+#addProductButton{
+	background-color: #1FA67A;
+}
+#addProductButton:hover{
+	background-color:#1FA66F;
+}
+#enterDiv{
+	width: 500px;
+    margin: auto;
+	border:2px solid #919191;
+}
+#Message{
+	font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    color: #008000;
+    width: 100%;
+	text-align:center;
+}
+div.stars {
+  width: 270px;
+  display: inline-block;
+}
+
+input.star { display: none; }
+
+label.star {
+  float: right;
+  padding: 10px;
+  font-size: 36px;
+  color: #444;
+  transition: all .2s;
+}
+input.star:checked ~ label.star:before {
+  content: '\f005';
+  color: #FD4;
+  transition: all .25s;
+}
+input.star-1:checked ~ label.star:before { color: #F62; }
+
+label.star:before {
+  content: '\f006';
+  font-family: FontAwesome;
+}
+.reviewForm{
+	padding-left: 80px;
+	padding-right: 80px;
+}
+.reviewForm li{
+	display:inline-block;
+	list-style-type:none;
+	margin: 6px;
+	font-family: Arial;
+    font-weight: bold;
+}

@@ -1,0 +1,73 @@
+th{
+	background: #d9d9d9;
+    color: #606060;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 25px;
+}
+tr{background-color: #f2f2f2}
+th, td {
+    text-align: left;
+    padding: 8px;
+    font-family: SANS-SERIF;
+}
+table {
+    width: 100%;
+	border-collapse: collapse;
+}
+form div{
+	width:100%;
+}
+#pageTitle{
+	width:33%;
+	float:left;
+}
+.total{
+	background:#333333;
+    color: white;
+    font-family: Arial;
+    font-size: 25px;
+    width:100%;
+}
+#customerRow{
+	background-color:#D81435;
+}
+#customerRow tr td{
+	border: none;
+}
+#managerRow{
+	background-color:#20B2AA;
+}
+#managerRow tr td{
+	border: none;
+}
+#customerLinks a{
+	color:white;
+	font-family: arial;
+    margin-left: 100px;
+    font-weight: bold;
+	text-decoration:none;
+}
+#customerLinks a:hover{
+	text-decoration:underline;
+}
+#managerLinks a{
+	color:white;
+	font-family: arial;
+    margin-left: 100px;
+    font-weight: bold;
+	text-decoration:none;
+}
+#managerLinks a:hover{
+	text-decoration:underline;
+}
+#CartDisplay{
+	width:33%;
+	float:left;
+	text-align: right;
+}
+#loginId{
+	width:33%;
+	float:left;
+	text-align:center;
+}

@@ -1,0 +1,56 @@
+th{
+	background: #d9d9d9;
+    color: #606060;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 25px;
+}
+tr{background-color: #f2f2f2}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    font-family: SANS-SERIF;
+}
+/* tr:hover{
+	background-color:#11429d;
+	cursor:pointer;
+    color:white;
+    font-weight: bold;
+       }
+
+td img:hover{
+	transform: scale(3);
+	left: 75px;
+} */
+th {
+    background-color: #000082;
+    color: white;
+    font-family: Arial;
+}
+#AddToCartButton{
+	float:right;
+	width: 250px;
+	height:50px;
+	color: black;
+	background-color: #ff9f00;
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Arial;
+    font-weight:bold;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#AddToCartButton:hover{
+	background-color:#ee6b11;
+}
+#pageTitle{
+	width:33%;
+	float:left;
+}
+#AddToCartDiv{
+	width:100%;
+}

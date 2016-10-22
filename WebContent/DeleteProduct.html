@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='UTF-8'>
+<title>BestDeal</title>
+<link rel='stylesheet' href='./CSS/font-awesome-4.6.3/css/font-awesome.min.css'>
+<link rel='stylesheet' type='text/css' href='./CSS/Common.css'>
+<link rel='stylesheet' type='text/css' href='./CSS/HomePage.css'>
+<link rel='stylesheet' type='text/css' href='./CSS/DeleteProduct.css'>
+</head>
+<body>
+<div id='container'>
+<div id='headerDiv'>
+<div id='header1'><header><div id='bestDealLogo'><a href='HomePage.html'><img src='./images/BestDealLogo.jpg' style='width:200px;height:75px;margin-left:30px;margin-top:15px;cursor:pointer;'></a></div></header><div id='search'><div id='searchDiv'><form method='get' class='searchBox'><input type='text' id='searchTextArea' name='search' placeholder='Search for products'></input><button type='submit' id='searchButton'>Search<i class='fa fa-search' aria-hidden='true'></i></button></form></div></div><div id='userLinks'><ul><li><a href='Logout'>Logout</a></li></ul></div></div><div id='header2'><div id='mainHeader2'> 				<nav><ul><li><span>MOBILE <i class='fa fa-mobile' aria-hidden='true'></i></span></li><li><span>TABLET <i class='fa fa-tablet' aria-hidden='true'></i></span></li><li><span>LAPTOP <i class='fa fa-laptop' aria-hidden='true'></i></span></li><li><span>TV <i class='fa fa-television' aria-hidden='true'></i></span></li></ul></nav></div></div></div>
+<div id='center'>
+<table>
+<tr>
+	<th>DELETE PRODUCT <i class="fa fa-minus-square-o" aria-hidden="true"></i></th>
+</tr>
+<tr>
+	<td>
+	<div id="Message">Product deleted successfully!</div>
+	<div id="enterDiv">
+		<form action="DeleteProduct" method="post">
+			<div>
+				<select type="select" class="credentials">
+					<option value="Select">Select Product</option>
+				</select>
+			</div>
+			<div><button type="submit" value="login" id="addProductButton" class="registerButtons">Delete product <i class="fa fa-minus-square" aria-hidden="true"></i></button></div>
+		</form>
+	</div>
+	</td>
+</tr>
+</table>
+</div><div class='footer' id='footer'><div id='contactText'><ul><h4>Contact</h4><li>Sujan Davangere Sunil</li><li>A20354703</li><li><a href='mailto:sdavange@hawk.iit.edu'>sdavange@hawk.iit.edu</a></li><li>CSP 595 - Assignment 2</li></ul></div></div></div></body></html>

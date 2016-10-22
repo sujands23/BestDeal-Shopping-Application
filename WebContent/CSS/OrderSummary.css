@@ -1,0 +1,61 @@
+th, td {
+    text-align: left;
+    padding: 8px;
+    font-family: SANS-SERIF;
+}
+tr{
+	background-color: #f2f2f2
+}
+th {
+    background-color: #000080;
+    color: white;
+    font-family: Arial;
+    font-size:16px;
+}
+td ul {
+    list-style: none;
+}
+#placeOrderButton{
+	float: right;
+	width: 250px;
+    height: 50px;
+    border: #f07a29;
+	border-radius: 3px;
+    background-color: #f08b29;
+    font-weight: bold;
+	font-size: 16px;
+	cursor:pointer;
+}
+#placeOrderButton:hover{
+	background-color:#ee6b11;
+}
+#placeOrderButton a{
+	text-decoration: none;
+    color: black;
+}
+tr td img{
+    width: 200px;
+    height: 180px;
+}
+#placeOrder{
+    float: right;
+}
+#removeButton{
+	width: 100px;
+    height: 30px;
+    background-color: #cc3d3d;
+    border: #cc3d3d;
+    color: white;
+	cursor:pointer;
+	border-radius:3px;
+}
+#removeButton:hover{
+	background-color:#a92d2d
+}
+#totalAmount{
+    width: 100%;
+	text-align: right;
+}
+#placeOrderDiv{
+	width:100%;
+}

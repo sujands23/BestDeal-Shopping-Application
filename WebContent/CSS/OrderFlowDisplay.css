@@ -1,0 +1,36 @@
+#orderFlowDisplay{
+	width:90%;
+	height:50px;
+	margin:auto;
+}
+.arrow-right {
+  width: 0; 
+  height: 0; 
+  float:left;
+  border-top: 23px solid transparent;
+  border-bottom: 23px solid transparent;
+  border-left: 30px solid #a3a3a3;;
+}
+.processName{
+	width: 24%;
+    height: 46px;
+    float: left;
+    background-color: #e5e5e5;
+    color: #a3a3a3;
+    font-family: Arial;
+    font-size: 15px;
+	text-align: center;
+}
+#now{
+	border-left: 30px solid #008000;
+}
+#firstStep{
+	border-left: 25px solid #f2f2f2;
+}
+#nowText{
+	background-color:#008000;
+	color:white;
+}
+#nowArrowBefore{
+	 border-left: 30px solid #e5e5e5;
+}

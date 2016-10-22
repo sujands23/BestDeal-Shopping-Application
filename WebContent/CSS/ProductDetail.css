@@ -1,0 +1,99 @@
+th{
+	background: #d9d9d9;
+    color: #606060;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 25px;
+}
+tr{background-color: #f2f2f2}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    font-family: SANS-SERIF;
+}
+form div{
+	width:100%;
+}
+#AddToCartButton {
+    width: 250px;
+    height: 50px;
+    color: black;
+    background-color: #ff9f00;
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Arial;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#WriteReviewButton {
+    width: 250px;
+    height: 50px;
+    color: white;
+    background-color: #228B22;
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Arial;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+productDetailList{
+	list-style: none;
+	color: #4b4b4b;
+	font-family: Arial;
+}
+#productRating{
+	width: 125px;
+    height: 23px;
+    background-color: #191970;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+	font-family: Arial;
+}
+h3{
+	font-family: Arial;
+	color: #4b4b4b;
+    margin: 5px 0px 5px 0px;
+}
+.personStarRating{
+	width: 100px;
+    height: 15px;
+    color: #191970;
+    padding: 10px;
+    font-size: 18px;
+	font-family: Arial;
+}
+h4{
+	font-family: Arial;
+	color: #4b4b4b;
+    margin: 5px 0px 5px 0px;
+}
+#quantitySelect{
+	background-color: #000080;
+    color: white;
+    padding: 3px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+}
+#userInputs{
+	width: 376px;
+    border: 2px solid #000080;
+    padding: 25px
+}
+#reviewsHeading{
+	background: #d9d9d9;
+    color: #606060;
+}
