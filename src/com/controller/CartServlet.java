@@ -19,7 +19,7 @@ import com.model.pojo.*;
 public class CartServlet extends HttpServlet {
        
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		System.out.println("Add to card button clicked");
+		System.out.println("Add to card button clicked"); 
 		System.out.println("==============================Inside doPost() of Cart Servlet==============================");
 		HttpSession session=request.getSession(false);
 		PrintWriter out=response.getWriter();
